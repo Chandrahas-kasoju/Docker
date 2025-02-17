@@ -1,0 +1,13 @@
+version: '3.8'
+
+services:
+  ros2_dev:
+    build: .
+    container_name: hospibot
+    privileged: true  # Gives the container full hardware access
+    #devices:
+     # - "/dev/ttyACM0:/dev/ACM0"  # Replace with your actual serial device
+    volumes:
+      - /dev:/dev  # Share all devices (useful if device changes dynamically)
+    stdin_open: true
+    tty: true
