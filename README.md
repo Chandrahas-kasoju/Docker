@@ -26,3 +26,7 @@ source /opt/ros/humble/setup.bash
 ros2 topic list
 ```
 Look for "/stepper_command" topic in the list
+## Funding Acknowledgment
+
+This work is part of the **Hospibot** project, which is funded by [Interreg Deutschland-Danmark](https://www.interreg.eu/) 
+![Interreg-Logo_bilingual_RGB](https://github.com/user-attachments/assets/40f63064-e2ca-4b7e-877a-a9f98fdd57de)
