@@ -15,7 +15,7 @@ sudo apt update && rosdep update
 rosdep install --from-paths src --ignore-src -y
 
 # Install pip
-sudo apt-get install python3-pip
+sudo apt-get install python3-pip -y
 
 # Build micro-ROS tools and source them
 colcon build
