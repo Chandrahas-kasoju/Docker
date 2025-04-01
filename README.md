@@ -16,7 +16,7 @@ Note: Make sure you are in the microros workspace directory and check for the as
 ```
 source /opt/ros/humble/setup.bash
 export RMW_IMPLEMENTATION=rmw_microxrcedds
-source install/locak_setup.bash
+source install/local_setup.bash
 ros2 run micro_ros_agent micro_ros_agent serial --dev /dev/ttyACM0
 ```
 Press Reset button on the ESP32 to start the communication!
